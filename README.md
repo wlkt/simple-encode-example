@@ -1,2 +1,2 @@
-# simple-encoding-example
+# simple-encode-example
 simple encode example
