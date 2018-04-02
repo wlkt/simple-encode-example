@@ -28,7 +28,7 @@ function xecho($data) {
 
     <div style="margin: auto; width: 50%;">
         <?php 
-            $result = mysqli_query($link, "SELECT * FROM comments") or die ("Query failed : " . mysqli_error());
+            $result = mysqli_query($link, "SELECT * FROM comments");
             while($row = mysqli_fetch_object($result)) { 
                 echo '<div style="background-color: #DDF; margin: 10px; padding: 10px;">';
                 echo '<p>';
